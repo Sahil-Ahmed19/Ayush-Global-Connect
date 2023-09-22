@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { DownOutlined } from "@ant-design/icons";
 import { Dropdown, Space } from "antd";
+import { Link } from "react-router-dom";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 
 const Nav = () => {
@@ -97,9 +98,9 @@ const Nav = () => {
           <a href="#" className="mx-4 my-auto font-medium hover:text-lime-800">
             Contact Us
           </a>
-          <a href="#" className="mx-4 my-auto font-medium hover:text-lime-800">
+          <Link to="/Login" className="mx-4 my-auto font-medium hover:text-lime-800">
             Login/Register
-          </a>
+          </Link>
         </div>
       </div>
     </div>
