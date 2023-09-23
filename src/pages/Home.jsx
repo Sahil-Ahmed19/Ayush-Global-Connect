@@ -1,10 +1,10 @@
-import object from "../components";
+import { Nav, Hero } from "../components";
 
 const Home = () => {
   return (
     <>
-      <object.Nav />
-      <object.Hero />
+      <Nav />
+      <Hero />
     </>
   );
 };

@@ -60,11 +60,11 @@ const Nav = () => {
     //       <li className='p-4'>Register</li>
     //   </ul>
     // </div>
-    <div className="h-28 mt-0 pb-4 top-0 w-full flex flex-col justify-end">
+    <div className="h-20 mb-8 w-full flex flex-col justify-end">
       <div className="h-12 mx-8 rounded-2xl flex bg-rose-500/20 shadow-lg">
         <div className="basis-1/2 flex">
           <h1 className="mx-4 my-auto text-2xl font-semibold text-[#5b6730]">
-            Ayush Startup Hub
+            Ayush Global Connect
           </h1>
           <span className="h-2/5 my-auto mx-1 bg-stone-500 w-0.5"></span>
           <img src="/navbar/g20.webp" alt="" className="" />
