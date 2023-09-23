@@ -1,6 +1,11 @@
 import { React, useState } from "react";
 import { Carousel } from "antd";
 import { TypeAnimation } from "react-type-animation";
+import img1 from "../assets/carousel1.jpeg";
+import img2 from "../assets/carousel2.png";
+import img3 from "../assets/carousel3.jpg";
+import img4 from "../assets/carousel4.jpg";
+import img5 from "../assets/carousel5.jpg";
 
 const Hero = () => {
   const [textColor, setTextColor] = useState("text-rose-400");
@@ -39,16 +44,19 @@ const Hero = () => {
         <section className="basis-4/6 h-80 w-1/6">
           <Carousel autoplay>
             <div className="m-0 h-80 bg-stone-300 text-center">
-              <h3>1</h3>
+              <img src={img1} alt="carousel1" />
             </div>
             <div className="m-0 h-80 bg-stone-300 text-center">
-              <h3>2</h3>
+            <img src={img2} alt="carousel2" />
             </div>
             <div className="m-0 h-80 bg-stone-300 text-center">
-              <h3>3</h3>
+            <img src={img3} alt="carousel3" />
             </div>
             <div className="m-0 h-80 bg-stone-300 text-center">
-              <h3>4</h3>
+            <img src={img4} alt="carousel4" />
+            </div>
+            <div className="m-0 h-80 bg-stone-300 text-center">
+            <img src={img5} alt="carousel5" />
             </div>
           </Carousel>
         </section>
