@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { React, useState } from "react";
 import { DownOutlined } from "@ant-design/icons";
 import { Dropdown, Space } from "antd";
 import { Link } from "react-router-dom";
@@ -98,7 +98,10 @@ const Nav = () => {
           <a href="#" className="mx-4 my-auto font-medium hover:text-lime-800">
             Contact Us
           </a>
-          <Link to="/Login" className="mx-4 my-auto font-medium hover:text-lime-800">
+          <Link
+            to="/Login"
+            className="mx-4 my-auto font-medium hover:text-lime-800"
+          >
             Login/Register
           </Link>
         </div>
