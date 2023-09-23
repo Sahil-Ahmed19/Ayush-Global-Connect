@@ -1,9 +1,10 @@
-import Nav from "../components/Nav";
+import { Nav, Hero } from "../components";
 
 const Home = () => {
   return (
     <>
       <Nav />
+      <Hero />
     </>
   );
 };
