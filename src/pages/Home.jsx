@@ -3,8 +3,8 @@ import { Nav, Hero, Chatbot } from "../components";
 const Home = () => {
   return (
     <>
-      <Nav />
       <Hero />
+      <Nav />
       <Chatbot />
     </>
   );
