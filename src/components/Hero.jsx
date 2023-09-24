@@ -10,7 +10,7 @@ import { TypeAnimation } from "react-type-animation";
 const Hero = () => {
   const [textColor, setTextColor] = useState("text-rose-500");
   return (
-    <div className=" bg-gradient-to-b from-violet-300 from-20% via-[#fab5b5] to-[#fab5b5] to-100% pt-28">
+<div className=" bg-gradient-to-b from-violet-300 from-20% via-[#fab5b5] to-[#fab5b5] to-100% pt-28">
       <div className="mx-8">
         <section className="flex px-4">
           <aside className="basis-2/6 h-80 w-auto pr-4 flex flex-col gap-4 justify-center">
