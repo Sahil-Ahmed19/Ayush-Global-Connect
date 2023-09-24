@@ -19,9 +19,9 @@ const Hero = () => {
               sequence={[
                 // Same substring at the start will only be typed out once, initially
                 "Startups",
-                1000, // wait 1s before replacing "Mice" with "Hamsters"
+                100, // wait 1s before replacing "Mice" with "Hamsters"
                 "Investors",
-                1000,
+                100,
                 () => setTextColor("text-amber-400"),
                 "Mentors",
                 1000,

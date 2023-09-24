@@ -1,10 +1,11 @@
-import { Nav, Hero } from "../components";
+import { Nav, Hero, Chatbot } from "../components";
 
 const Home = () => {
   return (
     <>
       <Nav />
       <Hero />
+      <Chatbot />
     </>
   );
 };
