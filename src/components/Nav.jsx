@@ -60,8 +60,8 @@ const Nav = () => {
     //       <li className='p-4'>Register</li>
     //   </ul>
     // </div>
-    <div className="h-20 mb-8 w-full flex flex-col justify-end">
-      <div className="h-12 mx-8 rounded-2xl flex bg-rose-500/20 shadow-lg">
+    <div className="fixed top-0 h-20 mb-8 w-full flex flex-col justify-end">
+      <div className="h-12 z-50 mx-8 rounded-2xl flex bg-violet-50/90 shadow-lg">
         <div className="basis-1/2 flex">
           <h1 className="mx-4 my-auto text-2xl font-semibold text-[#5b6730]">
             Ayush Global Connect
