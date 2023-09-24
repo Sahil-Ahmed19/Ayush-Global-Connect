@@ -1,11 +1,11 @@
 import { React, useState } from "react";
 import { Carousel } from "antd";
 import { TypeAnimation } from "react-type-animation";
-import img1 from "../assets/carousel1.jpeg";
-import img2 from "../assets/carousel2.png";
-import img3 from "../assets/carousel3.jpg";
-import img4 from "../assets/carousel4.jpg";
-import img5 from "../assets/carousel5.jpg";
+// import img1 from "../assets/carousel1.jpeg";
+// import img2 from "../assets/carousel2.png";
+// import img3 from "../assets/carousel3.jpg";
+// import img4 from "../assets/carousel4.jpg";
+// import img5 from "../assets/carousel5.jpg";
 
 const Hero = () => {
   const [textColor, setTextColor] = useState("text-rose-400");
@@ -43,20 +43,20 @@ const Hero = () => {
         </aside>
         <section className="basis-4/6 h-80 w-1/6">
           <Carousel autoplay>
-            <div className="m-0 h-80 bg-stone-300 text-center">
-              <img src={img1} alt="carousel1" />
+            <div className="m-0 h-80 text-center bg-[url('/banner/carousel1.jpeg')]">
+              {/* <img src={img1} alt="carousel1" /> */}
             </div>
-            <div className="m-0 h-80 bg-stone-300 text-center">
-            <img src={img2} alt="carousel2" />
+            <div className="m-0 h-80 text-center bg-[url('/banner/carousel2.png')]">
+            {/* <img src={img2} alt="carousel2" /> */}
             </div>
-            <div className="m-0 h-80 bg-stone-300 text-center">
-            <img src={img3} alt="carousel3" />
+            <div className="m-0 h-80 text-center bg-[url('/banner/carousel3.jpg')]">
+            {/* <img src={img3} alt="carousel3" /> */}
             </div>
-            <div className="m-0 h-80 bg-stone-300 text-center">
-            <img src={img4} alt="carousel4" />
+            <div className="m-0 h-80 text-center bg-[url('/banner/carousel4.jpg')]">
+            {/* <img src={img4} alt="carousel4" /> */}
             </div>
-            <div className="m-0 h-80 bg-stone-300 text-center">
-            <img src={img5} alt="carousel5" />
+            <div className="m-0 h-80 text-center bg-[url('/banner/carousel5.jpg')]">
+            {/* <img src={img5} alt="carousel5" /> */}
             </div>
           </Carousel>
         </section>
@@ -85,7 +85,7 @@ const Hero = () => {
 
 const Benefits = (props) => {
   return (
-    <div className="flex flex-col gap-2 w-1/4 p-4 rounded-xl bg-indigo-300">
+    <div className="flex flex-col gap-2 w-1/4 p-4 rounded-xl bg-indigo-300 hover:-translate-y-4 hover:bg-blue-300 hover:shadow-xl hover:shadow-stone-400 transition ease-in-out duration-300">
       <h1 className="text-xl font-semibold"> {props.heading} </h1>
       <p className="font-medium text-slate-800"> {props.desc} </p>
     </div>

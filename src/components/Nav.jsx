@@ -61,7 +61,7 @@ const Nav = () => {
     //   </ul>
     // </div>
     <div className="h-20 mb-8 w-full flex flex-col justify-end">
-      <div className="h-12 mx-8 rounded-2xl flex bg-rose-500/20 shadow-lg">
+      <div className="h-12 mx-8 rounded-2xl flex bg-rose-500/20 shadow-md shadow-stone-300">
         <div className="basis-1/2 flex">
           <h1 className="mx-4 my-auto text-2xl font-semibold text-[#5b6730]">
             Ayush Global Connect
