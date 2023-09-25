@@ -2,7 +2,6 @@ import { React, useState } from "react";
 import { DownOutlined } from "@ant-design/icons";
 import { Dropdown, Space } from "antd";
 import { Link } from "react-router-dom";
-import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 
 const Nav = () => {
   // const [nav, setNav] = useState(false);
@@ -13,27 +12,27 @@ const Nav = () => {
 
   const items = [
     {
-      label: <a href="#">Ayurveda</a>,
+      label: <a href="#">Startup</a>,
       key: "0",
     },
     {
-      label: <a href="#">Yoga & Naturopathy</a>,
+      label: <a href="#">Investor</a>,
       key: "1",
     },
     {
-      label: <a href="#">Homeopathy</a>,
+      label: <a href="#">Mentor</a>,
       key: "2",
     },
     {
-      label: <a href="#">Sowa Rigpa</a>,
+      label: <a href="#">Incubator</a>,
       key: "3",
     },
     {
-      label: <a href="#">Siddha</a>,
+      label: <a href="#">Accelerator</a>,
       key: "4",
     },
     {
-      label: <a href="#">Unani</a>,
+      label: <a href="#">Government Agency</a>,
       key: "5",
     },
   ];
@@ -86,7 +85,7 @@ const Nav = () => {
             >
               <a onClick={(e) => e.preventDefault()}>
                 <Space>
-                  Domains
+                  Network
                   <DownOutlined />
                 </Space>
               </a>
