@@ -18,7 +18,7 @@ const Chatbot = () => {
         onClick={() => setChildVisible(!childVisible)}
       />
       {childVisible && (
-        <div className="fixed top-0 h-screen w-screen">
+        <div className="fixed top-0 h-screen w-screen backdrop-blur-sm">
           <div className="relative h-screen">
             <iframe
               className="absolute top-0 bottom-0 right-0 mr-10 my-auto rounded-xl shadow-xl"
