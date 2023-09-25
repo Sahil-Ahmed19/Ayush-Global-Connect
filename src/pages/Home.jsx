@@ -1,4 +1,4 @@
-import { Nav, Hero, Chatbot } from "../components";
+import { Nav, Hero, Chatbot, ProfileCard } from "../components";
 
 const Home = () => {
   return (
@@ -6,6 +6,7 @@ const Home = () => {
       <Hero />
       <Nav />
       <Chatbot />
+      <ProfileCard />
     </>
   );
 };
