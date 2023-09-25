@@ -1,4 +1,4 @@
-import { Nav, Hero, Chatbot } from "../components";
+import { Nav, Hero, Chatbot, ProfileCard } from "../components";
 import { Button, Space, ConfigProvider } from "antd";
 
 const Home = () => {
